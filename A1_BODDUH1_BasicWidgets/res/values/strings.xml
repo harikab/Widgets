@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">A1_BODDUH1_BasicWidgets</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="psmall">Small</string>
+    <string name="pmedium">Medium</string>
+    <string name="plarge">Large</string>
+    <string name="ptoppings">Select your Toppings</string>
+    <string name="ptop1">Onions</string>
+    <string name="ptop2">Green Pepper</string>
+    <string name="ptop3">Olives</string>
+    <string name="ptop4">Chicken</string>
+    <string name="pquantity">Enter Pizza Quantity</string>
+    <string name="ptotal">Calculate Order</string>
+    <string name="orderTotal">Order Total</string>
+    <string name="totaldisp">0</string>
+    <string name="pcheese">Extra Cheese?</string>
+    <string name="delivery_type">Choose Delivery Type</string>
+    <string-array name="delivery_array">
+         <item>Carry-Out</item>
+        <item>Deliver</item>
+    </string-array>
+</resources>

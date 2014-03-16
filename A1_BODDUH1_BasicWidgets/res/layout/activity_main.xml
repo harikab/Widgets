@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/pizzaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <RadioGroup
+        android:id="@+id/psradioGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/pizzaSmallRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/psmall" />
+
+        <RadioButton
+            android:id="@+id/pizzaMediumRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pmedium" />
+
+        <RadioButton
+            android:id="@+id/pizzaLargeRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plarge" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/ptoppings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ptoppings" />
+
+    <CheckBox
+        android:id="@+id/ptop1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ptop1" />
+
+    <CheckBox
+        android:id="@+id/ptop2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ptop2" />
+
+    <CheckBox
+        android:id="@+id/ptop3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ptop3" />
+
+    <CheckBox
+        android:id="@+id/ptop4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ptop4" />
+
+   
+    <Switch
+        android:id="@+id/pcheese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pcheese"
+        tools:ignore="NewApi" />
+
+    <Spinner
+        android:id="@+id/pdelivery"
+        android:layout_width="234dp"
+        android:layout_height="34dp"
+        android:entries="@array/delivery_array"
+        android:prompt="@string/delivery_type" />
+
+    <TextView
+        android:id="@+id/pquantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pquantity" />
+
+    <EditText
+        android:id="@+id/etquantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/bCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ptotal" />
+
+    <TextView
+        android:id="@+id/orderTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/orderTotal" 
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/totalDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.00" />
+
+</LinearLayout>
